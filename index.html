@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my first persnal portfolio and first resume">
+    <title>My PortFolio</title>
+
+    <!-- ================================== External CSS ================================ -->
+    <link rel="stylesheet" href="Assets/Venders/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="Assets/Venders/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/Venders/aos/aos.css">
+
+    <!-- =================================== Custom CSS =============================== -->
+    <link rel="stylesheet" href="Assets/CSS/main.css">
+    <link rel="stylesheet" href="Assets/CSS/loader.css">
+
+<body>
+
+    <!----------------------------------- Loader Of page ----------------------------------->
+    <section class="Loader-box1">
+        <div class="wrap-loader">
+            <div class="loader">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="wrap-text">
+                    <div class="text">
+                        <span>L</span><span>O</span><span>A</span><span>D</span><span>I</span><span>N</span><span>G</span>
+                    </div>
+                </div>
+            </div>
+            <div class="loader-text">wait please</div>
+        </div>
+    </section>
+
+    <section class="header-contect container-fluid d-none d-md-block" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="MoNumber col-6">
+                    <span>
+                        Contect NO &nbsp;&nbsp;:
+                    </span>
+                    +91 7383989767
+                </div>
+                <div class="EmailAddress col-6">
+                    <span>
+                        E-mail &nbsp;&nbsp; :-
+                    </span>
+                    shivchevli9212@gmail.com
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav>
+        <span class="ToggleButton"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        <div class=" position">
+            <a href="">
+                <!-- <h1>My PortFo<span style="color: red;">lio</span></h1> -->
+                <h1>My <span class="typed" id="Head" data-typed-items="Profile^2000, Portfolio^1000"></span></h1>
+            </a>
+            <ul>
+                <!-- Make position Absulote To fix Problem -->
+                <li><span data-focu="#home" id="homeLable" class="active highlighter">Home</span></li>
+                <li><span data-focu="#about" id="aboutLable" class="highlighter">About</span></li>
+                <li><span data-focu="#skill" id="skillLable" class="highlighter">Skill</span></li>
+                <li><span data-focu="#project" id="projectLable" class="highlighter">Project</span></li>
+                <!-- <li><span data-focu="#review" id="reviewLable" class="highlighter">Review</span></li> -->
+                <li><span data-focu="#cont" id="contectLable" class="highlighter">Contect</span></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <img src="Assets/img/CoverPhoto.jpg" alt="" class="home-pic">
+        <!-- <img src="Assets/img/Edit_3.png" alt="" class="home-pic"> -->
+    </header>
+    <main>
+        <div class="ScollUpArrow-box">
+            <span class="ScollUpArrow"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></span>
+        </div>
+        <section class="about position" id="about">
+            <h1 data-aos="fade-down">About</h1>
+            <div class="row ">
+                <div class="col-lg-5 col-md-6 col-sm-8 offset-sm-2 my-5 my-image offset-md-3 offset-lg-0"
+                    data-aos="fade-right">
+                    <img src="Assets/img/Edit_3.png" class="img img-fluid" alt="Profile Image">
+                </div>
+                <div class="col-lg-7 col-md-10 my-5 description offset-md-0" data-aos="fade-left">
+                    <h2>I'm Shiv Chevli and I'm a <u style="color: red;"><span id="spacification" class="typed"
+                                data-typed-items=",Student,Web-Designer,Developer"></spen></u>
+                    </h2>
+                    <!-- <h3 id="Test"></h3> -->
+                    <p>
+                        Hello, My name is Shiv Chevli from Surat, India. I am 18 years old. I am a student of Computer
+                        Engineering at Sarvajanik
+                        College of Engineering And Technology, Surat Affiliated by AICT and Connected to Gujrat
+                        Technological University. I want
+                        to be a Full-stack Developer. I know the intermediate level of Web-design and also the basics of
+                        backed Development. I
+                        know Three programming languages Python, C/C++, and Java. Currently, I am learning PHP for
+                        Backend Development. I am
+                        also looking for a part-time or freelancing JOB. If you have a job, you can contact me in the
+                        given detail below. And I
+                        have attached my resume below.
+                    </p>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><span class="lable">Age :- </span> 18</li>
+                                    <li><span class="lable">Mobile Number :- </span> <br class="d-none d-lg-block">
+                                        +91
+                                        7383989767
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><span class="lable">Exprience :- </span> Freshar</li>
+                                    <li><span class="lable">E-mail :- </span> shivchevli9212@gmail.com</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="Error.html" target="blank"
+                        class="btn btn-danger px-3 mt-5 d-block w-50 mx-auto"><b>Download
+                            CV</b></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="Skill" id="skill">
+            <div class="position">
+
+                <h1 data-aos="fade-up">Skills</h1>
+                <!-- ------------------------------ HTML 5 Skill --------------------------------- -->
+                <div class="skillBox" data-color="#ff004f" data-aos="fade-up">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>90<sub>%</sub> </h2>
+                    </div>
+                    <h2 class="text"> Html </h2>
+                </div>
+                <!-- ------------------------------ CSS 3 Skill --------------------------------- -->
+                <div class="skillBox" data-color="#00ff43" data-aos="fade-up">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>80<sub>%</sub> </h2>
+                    </div>
+                    <h2 class="text"> CSS </h2>
+                </div>
+                <!-- ------------------------------ JavaScript Skill --------------------------------- -->
+                <div class="skillBox" data-color="#000aff" data-aos="fade-up">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>60<sub>%</sub> </h2>
+                    </div>
+                    <h2 class="text"> JavaScript </h2>
+                </div>
+                <!-- ------------------------------ Django Skill --------------------------------- -->
+                <div class="skillBox" data-color="#ff0aff" data-aos="fade-up">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>75<sub>%</sub> </h2>
+                    </div>
+                    <h2 class="text"> Bootstrap </h2>
+                </div>
+                <!-- ------------------------------ PhotoShop Skill --------------------------------- -->
+                <div class="skillBox" data-color="#00a1ff" data-aos="fade-up">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>70<sub>%</sub> </h2>
+                    </div>
+                    <h2 class="text highlighter"> PhotoShop </h2>
+                </div>
+                <!-- ------------------------------ PhotoShop Skill --------------------------------- -->
+                <div class="skillBox" data-color="#00a1ff" data-aos="fade-up">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>60<sub>%</sub> </h2>
+                    </div>
+                    <h2 class="text highlighter"> Django </h2>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+        <section class="project" id="project">
+            <div class="position">
+                <h1 data-aos="fade-up">Projects</h1>
+                <div class="show-case">
+                    <div class="window-box">
+                        <a href="https://shivchevli01.bitbucket.io/" target="blank">
+                            <div style="--i:1;" class="window">
+                                <div class="product-img">
+                                    <img src="Assets/img/Project/future_technology_thumbnail.png" alt="">
+                                </div>
+                                <div class="product-description-box">
+                                    <h3>Futer Technological</h3>
+                                    <p>
+                                        This is static Website which i created for college compitation.
+                                    </p>
+                                    <a class="github-link" href="#" target="blank">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div style="--i:2;" class="window">
+                                <img src="Assets/img/Project/Color_plate_genretor.jpeg" alt="">
+                                <div class="product-description-box">
+                                    <h3>Color Plate Genrator</h3>
+                                    <p>
+                                        Thi is just leaning Phase application which I have created to apply my
+                                        Javascript knowledge during my leaning phase.
+                                    </p>
+                                    <a class="github-link" href="#" target="blank">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div style="--i:3;" class="window">
+                                <img src="Assets/img/Project/Task_lister_react.jpeg" alt="">
+                                <div class="product-description-box">
+                                    <h3>Task Notes </h3>
+                                    <p>
+                                        It is my latest Project. It is built for testing my learning of React js.
+                                    </p>
+                                    <a class="github-link" href="#" target="blank">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div style="--i:4;" class="window">
+                                <img src="Assets/img/Project/WebPage_thumbnail.jpeg" alt="">
+                                <div class="product-description-box">
+                                    <h3>First Website</h3>
+                                    <p>
+                                        This website was build during the beginning of my front-end Developer journey.
+                                        It is built with pure HTML5 and CSS3
+                                        technology.
+                                    </p>
+                                    <a class="github-link" href="#" target="blank">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div style="--i:5;" class="window">
+                                <img src="Assets/img/portfolio/portfolio-4.jpg" alt="">
+                                <div class="product-description-box">
+                                    <h3>Comming Soon</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, veritatis! Cum
+                                        ab excepturi facilis optio! Iusto hic explicabo nobis veniam ab provident cum
+                                        animi? Illo nisi nihil rerum maxime blanditiis.
+                                    </p>
+                                    <a class="github-link" href="#" target="blank">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div style="--i:6;" class="window">
+                                <img src="Assets/img/portfolio/portfolio-5.jpg" alt="">
+                                <div class="product-description-box">
+                                    <h3>Comming Soon</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, veritatis! Cum
+                                        ab excepturi facilis optio! Iusto hic explicabo nobis veniam ab provident cum
+                                        animi? Illo nisi nihil rerum maxime blanditiis.
+                                    </p>
+                                    <a class="github-link" href="#" target="blank">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- <div class="pause-box"></div> -->
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- <section class="review position" id="review">
+            <h1>Review</h1>
+            <div class="Hexagon">
+                <div class="shape">
+                    <img src="Assets/img/Team Menbers/testimonials-8.jpg" alt="">
+                    <div class="content">
+                        <h2>Famous Person 1</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facilis adipisci iusto
+                            fugit
+                            culpa inventore libero rerum reprehenderit blanditiis. Deserunt laudantium qui culpa
+                            repellat iure, non accusantium dignissimos veritatis soluta?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Hexagon">
+                <div class="shape">
+                    <img src="Assets/img/Team Menbers/testimonials-7.jpg" alt="">
+                    <div class="content">
+                        <h2>Famous Person 2</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facilis adipisci iusto
+                            fugit
+                            culpa inventore libero rerum reprehenderit blanditiis. Deserunt laudantium qui culpa
+                            repellat iure, non accusantium dignissimos veritatis soluta?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Hexagon">
+                <div class="shape">
+                    <img src="Assets/img/Team Menbers/testimonials-5.jpg" alt="">
+                    <div class="content">
+                        <h2>Famous Person 3</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facilis adipisci iusto
+                            fugit
+                            culpa inventore libero rerum reprehenderit blanditiis. Deserunt laudantium qui culpa
+                            repellat iure, non accusantium dignissimos veritatis soluta?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </main>
+
+
+    <footer id="cont">
+        <div class="position">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 style="color:#f00">Follow on</h3>
+                    <div class="social my-3 text-light">
+                        <a href="https://github.com/ShivChevli/" target="blank"><i class="fab fa-github m-2"></i></a>
+                        <a href="https://www.linkedin.com/in/shiv-chevli-1232002" target="blank"><i
+                                class="fab fa-linkedin m-2" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/shivay_900/" target="blank"><i class="fab fa-instagram m-2"
+                                aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/chevli_shiv" target="blank"><i class="fab fa-twitter m-2"
+                                aria-hidden="true"></i></a>
+                    </div>
+                    <div class="contect">
+                        <label for="">Mobile Number :- </label>
+                        <span>7383989767</span>
+                        <br>
+                        <label for="">E-mail :- </label>
+                        <span>shivchevli9212@gmail.com</span>
+                    </div>
+                </div>
+                <div class="col-md-8 pt-5 pt-md-0">
+                    <form action="" method="get" id="ContectFrom">
+                        <div class="row">
+
+                            <div class="col-12 col-lg-6">
+                                <div class="contect-detail-lable">
+                                    Contect Me
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+
+                                <div class="input-group">
+                                    <input type="text" name="name" id="name" class="form-control"
+                                        placeholder="Enter Name">
+                                </div>
+                                <div class="input-group my-3">
+                                    <input type="email" name="EmailAddress" id="name" class="form-control"
+                                        placeholder="Enter E-mail Adress">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <textarea class="form-control" name="Comments" id="" rows="3"
+                                        placeholder="Enter Comments Here"></textarea>
+                                </div>
+                                <input type="submit" class="btn btn-danger px-4" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<!-- ==================================== External JS ================================== -->
+<script src="Assets/Venders/JQuery/jquery-3.4.1.js"></script>
+<script src="Assets/Venders/fontawesome/js/all.min.js"></script>
+<script src="Assets/Venders/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+<script src="Assets/Venders/typed/typed.min.js"></script>
+<script src="Assets/Venders/Chart/Chart.min.js"></script>
+<script src="Assets/Venders/Chart/pretty-doughtnut.js"></script>
+<script src="Assets/Venders/aos/aos.js"></script>
+
+<!-- ===================================== Custom JS ========================== -->
+<script src="Assets/JS/main.js"></script>
+</head>
+
+</html>
