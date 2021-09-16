@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404: Sorry Work in Progress</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=Playfair+Display:wght@700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Acme', sans-serif;
+        }
+
+        body {
+            overflow: hidden;
+            background-color: #001;
+            color: #fff;
+        }
+
+        span {
+            color: red;
+        }
+
+        img {
+            display: flexbox;
+            width: 30%;
+            margin: 50px auto;
+        }
+
+        h1 {
+            font-size: 4vw;
+        }
+
+        a {
+            color: #000;
+            font-size: 2vw !important;
+            text-decoration: none;
+            position: relative;
+        }
+
+        a::before {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: radial-gradient(#fff, transparent 80%);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <img src="Assets/img/MAINTENANCE-404.png" alt="" srcset="">
+        <h1>
+            <span>Oops !</span> Page is in under Maintenance
+            <br>
+            <span>Sorry</span> for Unavailability
+        </h1>
+        <a href="index.html"> <span> Back to Homepage </span></a>
+    </center>
+
+</body>
+
+</html>
