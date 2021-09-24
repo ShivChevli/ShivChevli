@@ -4,7 +4,8 @@ Where am I from: -> Surat, Gujrat-India<br>
 What am I doing Now: -> I’m currently pursuing computer engineering<br>
 What are my Interests: -> Fullstack development and Software development <br>
 How to reach me: -> Drop me a mail at shivchevli9212@gmail.com<br>
-LinkedIn Proflie ->  https://www.linkedin.com/in/shiv-chevli-1232002
+LinkedIn Proflie ->  https://www.linkedin.com/in/shiv-chevli-1232002<br>
+
 
 ### Strangth
 
