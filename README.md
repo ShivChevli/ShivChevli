@@ -7,7 +7,7 @@ How to reach me: -> Drop me a mail at shivchevli9212@gmail.com<br>
 LinkedIn Proflie ->  https://www.linkedin.com/in/shiv-chevli-1232002<br>
 
 
-### Strangth
+<!-- ### Strangth
 
 <ul>
  <li>Good Adaptability</li>
@@ -19,7 +19,7 @@ LinkedIn Proflie ->  https://www.linkedin.com/in/shiv-chevli-1232002<br>
 
 <ul>
 <li>Little bit lazy</li>
-</ul>
+</ul> -->
 
 
 <!--
