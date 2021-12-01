@@ -213,4 +213,13 @@ document.addEventListener('DOMContentLoaded', () => {
     AOS.init({
         duration: "500"
     });
+
+    var submitButton = document.getElementById("submit_form");
+    var form = document.getElementById("ContectFrom");
+    form.addEventListener("submit", function (e) {
+        setTimeout(function () {
+            submitButton.value = "Sending...";
+            submitButton.disabled = true;
+        }, 1);
+    });
 })

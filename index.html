@@ -222,7 +222,7 @@
                                     <p>
                                         This is static Website which i created for college compitation.
                                     </p>
-                                    <a class="github-link" href="#" target="blank">
+                                    <a class="github-link" href="#" aria-disabled="true" target="blank">
                                         <i class="fab fa-github" aria-hidden="true"></i>
                                     </a>
                                 </div>
@@ -251,7 +251,9 @@
                                     <p>
                                         It is my latest Project. It is built for testing my learning of React js.
                                     </p>
-                                    <a class="github-link" href="#" target="blank">
+                                    <a class="github-link"
+                                        href="https://github.com/ShivChevli/SideProjects/tree/main/TodoApp"
+                                        target="blank">
                                         <i class="fab fa-github" aria-hidden="true"></i>
                                     </a>
                                 </div>
@@ -273,33 +275,36 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="https://shivchevli.github.io/WebLayout/">
                             <div style="--i:5;" class="window">
-                                <img src="Assets/img/portfolio/portfolio-4.jpg" alt="">
+                                <img src="Assets/img/Project/WebLayout_thumbnail.jpeg" alt="">
                                 <div class="product-description-box">
-                                    <h3>Comming Soon</h3>
+                                    <h3>WebLayout</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, veritatis! Cum
-                                        ab excepturi facilis optio! Iusto hic explicabo nobis veniam ab provident cum
-                                        animi? Illo nisi nihil rerum maxime blanditiis.
+                                        Simple responsive single-page website layout for a small tech company or
+                                        single-person company. Build with core
+                                        web-technology HTML5, CSS3 and venila JavaScript.
                                     </p>
-                                    <a class="github-link" href="#" target="blank">
+                                    <a class="github-link" href="https://github.com/ShivChevli/WebLayout"
+                                        target="blank">
                                         <i class="fab fa-github" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="https://shivchevli.github.io/SideProjects/WebCalculator/">
                             <div style="--i:6;" class="window">
-                                <img src="Assets/img/portfolio/portfolio-5.jpg" alt="">
+                                <img src="Assets/img/Project/Web-calculator.jpeg" alt="">
                                 <div class="product-description-box">
-                                    <h3>Comming Soon</h3>
+                                    <h3>Web Calculator</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, veritatis! Cum
-                                        ab excepturi facilis optio! Iusto hic explicabo nobis veniam ab provident cum
-                                        animi? Illo nisi nihil rerum maxime blanditiis.
+                                        It is a Transparent Calculator Design. Created to Practice my CSS Knowledge and
+                                        also to try newly found library
+                                        Vanilla-tilt.js. This project was created on 8th October, 2020
                                     </p>
-                                    <a class="github-link" href="#" target="blank">
+                                    <a class="github-link"
+                                        href="https://github.com/ShivChevli/SideProjects/tree/main/WebCalculator"
+                                        target="blank">
                                         <i class="fab fa-github" aria-hidden="true"></i>
                                     </a>
                                 </div>
@@ -386,7 +391,7 @@
                     </div>
                 </div>
                 <div class="col-md-8 pt-5 pt-md-0">
-                    <form action="" method="get" id="ContectFrom">
+                    <form action="https://postmail.invotes.com/send" method="post" id="ContectFrom">
                         <div class="row">
 
                             <div class="col-12 col-lg-6">
@@ -396,21 +401,35 @@
                             </div>
                             <div class="col-12 col-lg-6">
 
-                                <div class="input-group">
-                                    <input type="text" name="name" id="name" class="form-control"
-                                        placeholder="Enter Name">
+                                <div class="input-group d-none">
+                                    <input type="text" id="emaiSubject" disabled class="form-control" name="subject"
+                                        placeholder="Subject" value="About Query" required />
+                                </div>
+
+                                <div class="input-group my-3">
+                                    <input type="text" name="extra_name" id="name" class="form-control"
+                                        placeholder="Enter Name" required>
                                 </div>
                                 <div class="input-group my-3">
-                                    <input type="email" name="EmailAddress" id="name" class="form-control"
-                                        placeholder="Enter E-mail Adress">
+                                    <!-- Change type to Text to fix Error -->
+                                    <input type="email" name="extra_EmailAddress" id="name" class="form-control"
+                                        placeholder="Enter E-mail Adress" required>
                                 </div>
                                 <div class="form-group mb-3">
-                                    <textarea class="form-control" name="Comments" id="" rows="3"
+                                    <textarea class="form-control" name="text" id="" rows="3"
                                         placeholder="Enter Comments Here"></textarea>
                                 </div>
-                                <input type="submit" class="btn btn-danger px-4" value="Submit">
+                                <input type="hidden" name="access_token" value="xhef0c24pxg6yjvq16x6vs7h" />
+                                <input type="hidden" name="error_url"
+                                    value="https://shivchevli.github.io/ShivChevli/Error.html" />
+                                <input type="hidden" name="success_url"
+                                    value="https://shivchevli.github.io/ShivChevli/" />
+
+                                <!-- <input type="submit" class="btn btn-danger px-4" value="Send"> -->
+                                <input id="submit_form" class="btn btn-danger px-4" type="submit" value="Send" />
                             </div>
                         </div>
+
                     </form>
                 </div>
             </div>
