@@ -217,9 +217,20 @@ document.addEventListener('DOMContentLoaded', () => {
     var submitButton = document.getElementById("submit_form");
     var form = document.getElementById("ContectFrom");
     form.addEventListener("submit", function (e) {
+
+
         setTimeout(function () {
             submitButton.value = "Sending...";
             submitButton.disabled = true;
         }, 1);
+
+        let sub = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let msg = document.getElementById("message").value;
+
+        if (sub == "" || msg == "" || email == "") {
+            alert("Please fill form data before sending it ");
+            return false;
+        }
     });
 })
