@@ -15,8 +15,9 @@
     position: relative;
 }
 body{
+    /* box-sizing: border-box; */
     width: 100%;
-
+    overflow-x: hidden;
 }
 /* ------------------------------------------------------------
                     Header Contect
