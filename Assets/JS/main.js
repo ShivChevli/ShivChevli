@@ -214,23 +214,49 @@ document.addEventListener('DOMContentLoaded', () => {
         duration: "500"
     });
 
-    var submitButton = document.getElementById("submit_form");
-    var form = document.getElementById("ContectFrom");
-    form.addEventListener("submit", function (e) {
+    // var submitButton = document.getElementById("submit_form");
+    // var form = document.getElementById("ContectFrom");
+    // form.addEventListener("submit", function (e) {
 
 
-        setTimeout(function () {
-            submitButton.value = "Sending...";
-            submitButton.disabled = true;
-        }, 1);
+    //     setTimeout(function () {
+    //         submitButton.value = "Sending...";
+    //         submitButton.disabled = true;
+    //     }, 1);
 
-        let sub = document.getElementById("name").value;
-        let email = document.getElementById("email").value;
-        let msg = document.getElementById("message").value;
+    //     let sub = document.getElementById("name").value;
+    //     let email = document.getElementById("email").value;
+    //     let msg = document.getElementById("message").value;
 
-        if (sub == "" || msg == "" || email == "") {
-            alert("Please fill form data before sending it ");
-            return false;
-        }
-    });
+    //     if (sub == "" || msg == "" || email == "") {
+    //         alert("Please fill form data before sending it ");
+    //         return false;
+    //     }
+    // });
+})
+
+document.querySelector("#ContectFrom").addEventListener("submit", async function (evt) {
+    let name = document.querySelector("#emaiSubject").value;
+    let email = document.querySelector("#email").value;
+    let msg = document.querySelector("#message").value;
+
+    if (name == "" || email == "" || msg == "") {
+        alert("All fields are requried");
+        evt.preventDefault();
+        return false;
+    }
+
+    let pattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+    if (email.match(pattern) == null) {
+        alert("Invelid email format");
+        evt.preventDefault();
+        return false;
+    }
+    let submitButton = document.querySelector("#submit_form");
+
+    setTimeout(function () {
+        submitButton.value = "Sending...";
+        submitButton.disabled = true;
+    }, 1);
 })
